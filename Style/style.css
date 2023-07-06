@@ -4,6 +4,7 @@
 }
 .logo-photo{
     width: 120px;
+    cursor: pointer;
    
 }
 
@@ -22,4 +23,60 @@
 }
 .item{
     margin: 10px;
+    cursor: pointer;
+}
+.item:hover{
+    color: cadetblue;
+}
+.banner-photo{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    /*border: 2px solid gray;*/
+    height: 100vh;
+    align-items: center;
+    color: aqua;
+    background-image: url("./images/background.png"), linear-gradient(45deg,#101010,#1c1616);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.btn:hover{
+    color: firebrick;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+.about{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+}
+.about-info{
+    padding-bottom: 10px;
 }
