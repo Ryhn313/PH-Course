@@ -1,5 +1,24 @@
-.heading{
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .heading{
     color: blue;
     text-decoration: solid;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para{
+    border: 2px;
+}
+#head{
+    margin: 5px;
+    padding: 5px;
+    border: 15px solid black;
+    border-radius: inherit;
+    display: block;
+    border-style: dashed;
+    box-shadow: inset;
+    box-sizing: content-box;
+    text-decoration: navajowhite;
+
 }
