@@ -93,8 +93,11 @@
 .icon{
     width: 70px;
 }
+   
 .box-btn{
     background-color: gray;
+    box-shadow:4px 4px 15px black ;
+    display: cover;
    
 }
 .box-title{
@@ -105,4 +108,7 @@
 }
 .service-container{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
 }
